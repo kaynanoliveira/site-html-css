@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: darkgray;
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+    width: 60px;
+}
+.menu li {
+    display: inline;
+    margin: 8px;
+}
+@media(max-width: 376px){
+    .header{
+        flex-direction: column;
+    }
+}

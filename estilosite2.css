@@ -4,7 +4,7 @@ html, body {
 }
 
 .header {
-    background-color: darkgray;
+    background-color: cornflowerblue;
     padding: 8px;
 
     display: flex;
